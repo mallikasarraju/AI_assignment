@@ -1,0 +1,68 @@
+/* app.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.app-container {
+  background: linear-gradient(to right, #d1d1d1, #a6a6a6);
+  padding: 1.5vw; /* Responsive padding in viewport width */
+  display: flex;
+  flex-direction: column;
+  height: 93.5vh;
+  width: 97;
+}
+
+.file-upload-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.uploaded-files {
+  margin-top: 20px; /* Add some top margin for spacing */
+}
+
+.uploaded-files ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.uploaded-files li {
+  margin-bottom: 8px;
+}
+
+.file-upload-section button {
+  background-color: #c0c0c0;
+  padding: 1.5vw; /* Responsive padding in viewport width */
+  flex: 1;
+}
+
+.chat-history {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 2vh; /* Responsive margin in viewport height */
+}
+
+.user-input-section {
+  display: flex;
+  flex-direction: row;
+  width: 95;
+}
+
+#query {
+  padding: 1vw; /* Responsive padding in viewport width */
+  flex: 4;
+}
+
+#send {
+  background-color: #c0c0c0;
+  padding: 1.5vw; /* Responsive padding in viewport width */
+  flex: 1;
+}
